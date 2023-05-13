@@ -12,4 +12,18 @@ spring:
                   certificate-location: classpath:local.crt
             singlelogout:
               binding: POST
-              response-url: "{baseUrl}/logout/saml2/slo"
+              response-url: "{baseUrl}/logout/saml2/slo"          
+          bcit:
+            assertingparty:              
+              metadata-uri: classpath:metadata/metadata-idp.xml
+            signing:
+              credentials:
+                - private-key-location: classpath:local.key
+                  certificate-location: classpath:local.crt
+            singlelogout:
+              binding: POST
+              response-url: "{baseUrl}/logout/saml2/slo"    
+logging:
+  level:
+    '[org.springframework.security.saml2]':
+      debug 

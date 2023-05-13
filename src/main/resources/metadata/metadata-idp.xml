@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" ID="I56445c316a143d1" entityID="https://id.bcit.ca" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference URI="#I56445c316a143d1">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>ZqxhXjkrvnRwSXpp0BOhY4J4UTU=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>lP+u3DouHdU57MRC6Yy72WwByVJV/McDlqSc0kr9UQnBWBZxE+alvqz68KA0CpN7
+8y8UELf+lBqs1q3li3GRmmsjNSWmJCuS/munrHAjSkGsz6le/a+ekuWuLOP8RUfZ
+h47ioYKynGPmb+I3MZr6zE5s/2/iqz9LcTl1SzoHw75ZHkGAD81zIYxx9GFCE2+0
+xxuKKc9W2uJXII8Y9yCQwb4VEpeeM/f3KrWwEFHNUJeNSq7oSPpnqGsE5EPeHAA3
+9KiQieMYAqCseKFpYAtryJMRns3/UUDGCf8KDE2jHPSZIFK353lwAz+Us0kSX1Pd
+7IwPbC0iK5S/V2i80pIs9A==</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>MIID+DCCAuCgAwIBAgIEDuwF1zANBgkqhkiG9w0BAQsFADCBvTELMAkGA1UEBhMC
+Q0ExGTAXBgNVBAgTEEJyaXRpc2ggQ29sdW1iaWExEDAOBgNVBAcTB0J1cm5hYnkx
+MTAvBgNVBAoTKEJyaXRpc2ggQ29sdW1iaWEgSW5zdGl0dXRlIG9mIFRlY2hub2xv
+Z3kxFDASBgNVBAsTC0lUIFNlcnZpY2VzMRowGAYDVQQDExFCQ0lUIFNBTUwgU2ln
+bmluZzEcMBoGCSqGSIb3DQEJARYNc3NsY2FAYmNpdC5jYTAeFw0xNzEyMDcyMTIz
+MzVaFw0zNzEyMDcyMTIzMzVaMIG9MQswCQYDVQQGEwJDQTEZMBcGA1UECBMQQnJp
+dGlzaCBDb2x1bWJpYTEQMA4GA1UEBxMHQnVybmFieTExMC8GA1UEChMoQnJpdGlz
+aCBDb2x1bWJpYSBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neTEUMBIGA1UECxMLSVQg
+U2VydmljZXMxGjAYBgNVBAMTEUJDSVQgU0FNTCBTaWduaW5nMRwwGgYJKoZIhvcN
+AQkBFg1zc2xjYUBiY2l0LmNhMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
+AQEA9JHXRmm4iLx87+/Zb2Gel5CXV2LfcAXU3RWM/aQtBG7grljXq4d+VCy5bav1
+n6MFHTXxlyKq9fWKW8vEqwju8ha/hdTvp280r4f9KzJMj7D30QbhYoCAxhO1cYeD
+pEqKFcWRzSlINEiD7uSHdyPhmYE/sdCMvl+bilz3d/q1K82wmvY8708lLgxv5sNg
+vMZDjpDdxP7tuMCXW8VFt2bMbzAMatsYyCumaIRrQzoH4e8ZNtVHTUlxuQdFF/yi
+KdQ8ARie4PmOnnZYq2idLxP4yn5xbOL2BYU81BpeH2VVgeo+bLtYqmYUdBQR/5gt
+imKZbCg82MR0lWNgbkzPOLyJDwIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQDmmNlg
+d7xfgPxCpxguiGJhSx0AcSCAE6vBrJKZFieqx44giswYUj4ImLF5SK7RttRzrRGX
+q+JS5oWOzX+MMp8Zyj8zS5Fx++m7hMOdiYzkFpFF/MBjfz+J0Wv8+ss8BMOeLLBp
+iSC+OsZ6Nid/lyvkY4qhYzm8DbT4YzmZT/0e/aGBzaVTrJ4S08YXImGZneO2Hm5t
+qqvn35A0Gd5yllEGkTa34AH8tAL0ZxJISulym7LNF7wmWbVu+cJfO0nn1R3iWJGE
+WQ7YAIKLc2b+3+Xp6KANe69vJyXClNlu7BPfKGoMPuOEJ2jnt1rKH1JPWXCMjnFF
+Ma7yE0QG4KWdsYTZ
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+	<IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<KeyDescriptor>
+			<ds:KeyInfo>
+				<ds:X509Data>
+					<ds:X509Certificate>MIID+DCCAuCgAwIBAgIEDuwF1zANBgkqhkiG9w0BAQsFADCBvTELMAkGA1UEBhMCQ0ExGTAXBgNVBAgTEEJyaXRpc2ggQ29sdW1iaWExEDAOBgNVBAcTB0J1cm5hYnkxMTAvBgNVBAoTKEJyaXRpc2ggQ29sdW1iaWEgSW5zdGl0dXRlIG9mIFRlY2hub2xvZ3kxFDASBgNVBAsTC0lUIFNlcnZpY2VzMRowGAYDVQQDExFCQ0lUIFNBTUwgU2lnbmluZzEcMBoGCSqGSIb3DQEJARYNc3NsY2FAYmNpdC5jYTAeFw0xNzEyMDcyMTIzMzVaFw0zNzEyMDcyMTIzMzVaMIG9MQswCQYDVQQGEwJDQTEZMBcGA1UECBMQQnJpdGlzaCBDb2x1bWJpYTEQMA4GA1UEBxMHQnVybmFieTExMC8GA1UEChMoQnJpdGlzaCBDb2x1bWJpYSBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neTEUMBIGA1UECxMLSVQgU2VydmljZXMxGjAYBgNVBAMTEUJDSVQgU0FNTCBTaWduaW5nMRwwGgYJKoZIhvcNAQkBFg1zc2xjYUBiY2l0LmNhMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA9JHXRmm4iLx87+/Zb2Gel5CXV2LfcAXU3RWM/aQtBG7grljXq4d+VCy5bav1n6MFHTXxlyKq9fWKW8vEqwju8ha/hdTvp280r4f9KzJMj7D30QbhYoCAxhO1cYeDpEqKFcWRzSlINEiD7uSHdyPhmYE/sdCMvl+bilz3d/q1K82wmvY8708lLgxv5sNgvMZDjpDdxP7tuMCXW8VFt2bMbzAMatsYyCumaIRrQzoH4e8ZNtVHTUlxuQdFF/yiKdQ8ARie4PmOnnZYq2idLxP4yn5xbOL2BYU81BpeH2VVgeo+bLtYqmYUdBQR/5gtimKZbCg82MR0lWNgbkzPOLyJDwIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQDmmNlgd7xfgPxCpxguiGJhSx0AcSCAE6vBrJKZFieqx44giswYUj4ImLF5SK7RttRzrRGXq+JS5oWOzX+MMp8Zyj8zS5Fx++m7hMOdiYzkFpFF/MBjfz+J0Wv8+ss8BMOeLLBpiSC+OsZ6Nid/lyvkY4qhYzm8DbT4YzmZT/0e/aGBzaVTrJ4S08YXImGZneO2Hm5tqqvn35A0Gd5yllEGkTa34AH8tAL0ZxJISulym7LNF7wmWbVu+cJfO0nn1R3iWJGEWQ7YAIKLc2b+3+Xp6KANe69vJyXClNlu7BPfKGoMPuOEJ2jnt1rKH1JPWXCMjnFFMa7yE0QG4KWdsYTZ</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</KeyDescriptor>
+		<SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://id.bcit.ca/saml/idp/profile/post/sls" ResponseLocation="https://id.bcit.ca/saml/idp/profile/post/slr">
+		</SingleLogoutService>
+		<SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://id.bcit.ca/saml/idp/profile/redirect/sls" ResponseLocation="https://id.bcit.ca/saml/idp/profile/redirect/slr">
+		</SingleLogoutService>
+		<NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</NameIDFormat>
+		<SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://id.bcit.ca/saml/idp/profile/redirectorpost/sso">
+		</SingleSignOnService>
+		<SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://id.bcit.ca/saml/idp/profile/redirectorpost/sso">
+		</SingleSignOnService>
+		<saml:Attribute Name="username" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified">
+		</saml:Attribute>
+		<saml:Attribute Name="displayName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified">
+		</saml:Attribute>
+		<saml:Attribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified">
+		</saml:Attribute>
+	</IDPSSODescriptor>
+</EntityDescriptor>
